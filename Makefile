@@ -17,6 +17,6 @@ generate_and_push:
 	git config --local user.name "GitHub Action"
 	git pull
 	git add .
-	git commit -m "rerun push"
+	git commit -m "rerun push" --allow-empty
 	git push
        
