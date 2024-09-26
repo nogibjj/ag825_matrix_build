@@ -9,7 +9,7 @@ lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
 test:
-	python -m pytest -cov testmain.py
+	python -m pytest -cov test_main.py
 
 generate_and_push:
 	python main.py
@@ -20,4 +20,4 @@ generate_and_push:
 	git commit -m "rerun push" --allow-empty
 	git push
        
-all: install format lint test
+all: install format lint test generate_and_push
