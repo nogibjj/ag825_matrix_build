@@ -20,3 +20,4 @@ generate_and_push:
 	git commit -m "rerun push" --allow-empty
 	git push
        
+all: install format lint test
