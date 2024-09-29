@@ -1,4 +1,4 @@
-# Mini Project: Pandas Descriptive Statistics
+# Mini Project: [Matrix Build and Testing] Pandas Descriptive Statistics
 Adil Keku Gazder <br>
 ag825, adil.gazder@duke.edu <br>
 IDS 706: Data Engineering Systems <br>
